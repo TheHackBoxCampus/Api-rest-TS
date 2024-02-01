@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon --quiet src/app.ts",
-    "build": "tsc",
+    "build": "npm install & tsc",
     "start": "node ./dist/app.js"
   },
   "keywords": [],
